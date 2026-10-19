@@ -1,0 +1,93 @@
+name: Update verified subscription
+
+on:
+  schedule:
+    # UTC 01:20 = Asia/Shanghai 09:20. GitHub may delay scheduled jobs.
+    - cron: '20 1 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/update.yml'
+      - '*.py'
+      - 'requirements.txt'
+      - 'settings.json'
+      - 'tests/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-subscription
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - name: Check out default branch
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Install verified Xray
+        run: python download_xray.py
+
+      - name: Test parser, publication guards, and real proxy chain
+        env:
+          XRAY_BIN: ${{ github.workspace }}/bin/xray
+        run: python -m unittest discover -s tests -v
+
+      - name: Fetch and test today's nodes
+        id: filter
+        run: python check_nodes.py
+
+      - name: Save this run's report
+        if: always()
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
+        with:
+          name: node-check-report
+          path: .run/report.json
+          include-hidden-files: true
+          if-no-files-found: ignore
+          retention-days: 7
+
+      - name: Publish stable subscription files
+        if: success() && steps.filter.outcome == 'success'
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- subscribe/
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Update verified subscription $(TZ=Asia/Shanghai date +%F)"
+          # Rebase source changes safely; a conflict stops publication.
+          git pull --rebase origin "$DEFAULT_BRANCH"
+          git push origin "HEAD:$DEFAULT_BRANCH"
+
+      - name: Show stable URLs after publication
+        if: success() && steps.filter.outcome == 'success'
+        env:
+          REPOSITORY: ${{ github.repository }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          python - <<'PY'
+          import os
+          from urllib.parse import quote
+          root = f"https://raw.githubusercontent.com/{os.environ['REPOSITORY']}/{quote(os.environ['DEFAULT_BRANCH'], safe='')}/subscribe"
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as f:
+              f.write(f"\nStable V2Ray URL: {root}/v2ray.txt\n\nStable Mihomo URL: {root}/clash.yaml\n\nStatus: {root}/status.json\n")
+          PY

@@ -1,0 +1,9 @@
+{
+  "test_urls": [
+    "https://www.gstatic.com/generate_204",
+    "https://cp.cloudflare.com/generate_204"
+  ],
+  "timeout_seconds": 10,
+  "rounds": 1,
+  "workers": 8
+}

@@ -3,6 +3,21 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
+- name: 未知 VLESS-46 | free-nodes [5a115f]
+  type: vless
+  server: s171.wagahaha.xyz
+  port: 443
+  udp: true
+  network: tcp
+  tls: true
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  flow: xtls-rprx-vision
+  servername: u695098u7dae9c0cs220.gogocs.xyz
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  alpn:
+  - h2
+  - http/1.1
 - name: 未知 VLESS-60 | free-nodes [c3da92]
   type: vless
   server: s170.gogocs.xyz
@@ -33,35 +48,20 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 未知 VLESS-46 | free-nodes [5a115f]
-  type: vless
-  server: s171.wagahaha.xyz
-  port: 443
-  udp: true
-  network: tcp
-  tls: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  flow: xtls-rprx-vision
-  servername: u695098u7dae9c0cs220.gogocs.xyz
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  alpn:
-  - h2
-  - http/1.1
 proxy-groups:
 - name: PROXY
   type: select
   proxies:
   - AUTO
+  - 未知 VLESS-46 | free-nodes [5a115f]
   - 未知 VLESS-60 | free-nodes [c3da92]
   - 未知 VLESS-57 | free-nodes [c1909b]
-  - 未知 VLESS-46 | free-nodes [5a115f]
 - name: AUTO
   type: url-test
   proxies:
+  - 未知 VLESS-46 | free-nodes [5a115f]
   - 未知 VLESS-60 | free-nodes [c3da92]
   - 未知 VLESS-57 | free-nodes [c1909b]
-  - 未知 VLESS-46 | free-nodes [5a115f]
   url: https://www.gstatic.com/generate_204
   interval: 300
 rules:

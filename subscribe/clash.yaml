@@ -18,9 +18,9 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 未知 VLESS-60 | free-nodes [c3da92]
+- name: 未知 VLESS-46 | free-nodes [5a115f]
   type: vless
-  server: s170.gogocs.xyz
+  server: s171.wagahaha.xyz
   port: 443
   udp: true
   network: tcp
@@ -33,9 +33,9 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 未知 VLESS-46 | free-nodes [5a115f]
+- name: 未知 VLESS-60 | free-nodes [c3da92]
   type: vless
-  server: s171.wagahaha.xyz
+  server: s170.gogocs.xyz
   port: 443
   udp: true
   network: tcp
@@ -54,14 +54,14 @@ proxy-groups:
   proxies:
   - AUTO
   - 未知 VLESS-57 | free-nodes [c1909b]
-  - 未知 VLESS-60 | free-nodes [c3da92]
   - 未知 VLESS-46 | free-nodes [5a115f]
+  - 未知 VLESS-60 | free-nodes [c3da92]
 - name: AUTO
   type: url-test
   proxies:
   - 未知 VLESS-57 | free-nodes [c1909b]
-  - 未知 VLESS-60 | free-nodes [c3da92]
   - 未知 VLESS-46 | free-nodes [5a115f]
+  - 未知 VLESS-60 | free-nodes [c3da92]
   url: https://www.gstatic.com/generate_204
   interval: 300
 rules:

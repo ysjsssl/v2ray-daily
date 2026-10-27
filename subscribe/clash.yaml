@@ -3,9 +3,9 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-- name: 未知 VLESS-57 | free-nodes [c1909b]
+- name: 未知 VLESS-60 | free-nodes [c3da92]
   type: vless
-  server: 62.105.220.106
+  server: s170.gogocs.xyz
   port: 443
   udp: true
   network: tcp
@@ -33,9 +33,9 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 未知 VLESS-60 | free-nodes [c3da92]
+- name: 未知 VLESS-57 | free-nodes [c1909b]
   type: vless
-  server: s170.gogocs.xyz
+  server: 62.105.220.106
   port: 443
   udp: true
   network: tcp
@@ -53,15 +53,15 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 未知 VLESS-57 | free-nodes [c1909b]
-  - 未知 VLESS-46 | free-nodes [5a115f]
   - 未知 VLESS-60 | free-nodes [c3da92]
+  - 未知 VLESS-46 | free-nodes [5a115f]
+  - 未知 VLESS-57 | free-nodes [c1909b]
 - name: AUTO
   type: url-test
   proxies:
-  - 未知 VLESS-57 | free-nodes [c1909b]
-  - 未知 VLESS-46 | free-nodes [5a115f]
   - 未知 VLESS-60 | free-nodes [c3da92]
+  - 未知 VLESS-46 | free-nodes [5a115f]
+  - 未知 VLESS-57 | free-nodes [c1909b]
   url: https://www.gstatic.com/generate_204
   interval: 300
 rules:

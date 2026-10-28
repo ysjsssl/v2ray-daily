@@ -1,7 +1,7 @@
 {
-  "source_url": "https://clashgithub.com/wp-content/uploads/rss/20261027.txt",
-  "source_date": "20261027",
-  "checked_at": "2026-10-27T14:25:10.907582+08:00",
+  "source_url": "https://clashgithub.com/wp-content/uploads/rss/20261028.txt",
+  "source_date": "20261028",
+  "checked_at": "2026-10-28T14:55:29.531799+08:00",
   "status": "published",
   "results": [
     {
@@ -225,6 +225,12 @@
       "reason": "HTTPS 204 probe failed"
     },
     {
+      "id": "9a887cbb66b4588d",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
       "id": "39d42db4d1044b15",
       "type": "vless",
       "status": "failed",
@@ -237,7 +243,19 @@
       "reason": "HTTPS 204 probe failed"
     },
     {
+      "id": "48a7236751e8bbfd",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
       "id": "a6e56b0aa0cee8b3",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "3cb07d719acdefbb",
       "type": "vless",
       "status": "failed",
       "reason": "HTTPS 204 probe failed"
@@ -255,74 +273,7 @@
       "reason": "HTTPS 204 probe failed"
     },
     {
-      "id": "3cb07d719acdefbb",
-      "type": "vless",
-      "status": "failed",
-      "reason": "HTTPS 204 probe failed"
-    },
-    {
-      "id": "48a7236751e8bbfd",
-      "type": "vless",
-      "status": "failed",
-      "reason": "HTTPS 204 probe failed"
-    },
-    {
-      "id": "9a887cbb66b4588d",
-      "type": "vless",
-      "status": "failed",
-      "reason": "HTTPS 204 probe failed"
-    },
-    {
       "id": "ebde43db3064c0bf",
-      "type": "vless",
-      "status": "failed",
-      "reason": "HTTPS 204 probe failed"
-    },
-    {
-      "id": "c1ef1371176872a9",
-      "type": "vless",
-      "status": "failed",
-      "reason": "HTTPS 204 probe failed"
-    },
-    {
-      "id": "4da31426e02c2e87",
-      "type": "vless",
-      "status": "failed",
-      "reason": "HTTPS 204 probe failed"
-    },
-    {
-      "id": "5e4359419efac0cf",
-      "type": "vless",
-      "status": "failed",
-      "reason": "HTTPS 204 probe failed"
-    },
-    {
-      "id": "5a115f34c56a0dfa",
-      "type": "vless",
-      "status": "ok",
-      "latency_ms": 1208,
-      "probes": 2
-    },
-    {
-      "id": "c5c017e837b2235d",
-      "type": "vless",
-      "status": "failed",
-      "reason": "HTTPS 204 probe failed"
-    },
-    {
-      "id": "83c5645e358d5f73",
-      "type": "vless",
-      "status": "failed",
-      "reason": "HTTPS 204 probe failed"
-    },
-    {
-      "id": "d13504f192a3413b",
-      "type": "vless",
-      "status": "failed",
-      "reason": "HTTPS 204 probe failed"
-    },
-    {
-      "id": "b63b12a73f799062",
       "type": "vless",
       "status": "failed",
       "reason": "HTTPS 204 probe failed"
@@ -334,14 +285,51 @@
       "reason": "HTTPS 204 probe failed"
     },
     {
-      "id": "c1909b80a607a105",
+      "id": "83c5645e358d5f73",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "4da31426e02c2e87",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "c1ef1371176872a9",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "5a115f34c56a0dfa",
       "type": "vless",
       "status": "ok",
-      "latency_ms": 1236,
+      "latency_ms": 698,
       "probes": 2
     },
     {
-      "id": "26bea73afd6c180d",
+      "id": "5e4359419efac0cf",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "c5c017e837b2235d",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "c1909b80a607a105",
+      "type": "vless",
+      "status": "ok",
+      "latency_ms": 806,
+      "probes": 2
+    },
+    {
+      "id": "58063e7ea2977e94",
       "type": "vless",
       "status": "failed",
       "reason": "HTTPS 204 probe failed"
@@ -353,7 +341,19 @@
       "reason": "HTTPS 204 probe failed"
     },
     {
-      "id": "9b5c384a810b515b",
+      "id": "d13504f192a3413b",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "26bea73afd6c180d",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "8c8dce25ce586ef8",
       "type": "vless",
       "status": "failed",
       "reason": "HTTPS 204 probe failed"
@@ -368,11 +368,23 @@
       "id": "c3da928010c50e87",
       "type": "vless",
       "status": "ok",
-      "latency_ms": 1014,
+      "latency_ms": 684,
       "probes": 2
     },
     {
-      "id": "8c8dce25ce586ef8",
+      "id": "9b5c384a810b515b",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "b63b12a73f799062",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "f0fe32baf25d1441",
       "type": "vless",
       "status": "failed",
       "reason": "HTTPS 204 probe failed"
@@ -390,25 +402,7 @@
       "reason": "HTTPS 204 probe failed"
     },
     {
-      "id": "f0fe32baf25d1441",
-      "type": "vless",
-      "status": "failed",
-      "reason": "HTTPS 204 probe failed"
-    },
-    {
-      "id": "58063e7ea2977e94",
-      "type": "vless",
-      "status": "failed",
-      "reason": "HTTPS 204 probe failed"
-    },
-    {
       "id": "c421f1310e5bba93",
-      "type": "vless",
-      "status": "failed",
-      "reason": "HTTPS 204 probe failed"
-    },
-    {
-      "id": "fc21343fa581cd8e",
       "type": "vless",
       "status": "failed",
       "reason": "HTTPS 204 probe failed"
@@ -420,7 +414,19 @@
       "reason": "HTTPS 204 probe failed"
     },
     {
-      "id": "a8ea431831e5b543",
+      "id": "fc21343fa581cd8e",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "e3182b38761d1110",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "a17ab495b5e92479",
       "type": "vless",
       "status": "failed",
       "reason": "HTTPS 204 probe failed"
@@ -438,7 +444,13 @@
       "reason": "HTTPS 204 probe failed"
     },
     {
-      "id": "a17ab495b5e92479",
+      "id": "e0098f9004f7f633",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "a8ea431831e5b543",
       "type": "vless",
       "status": "failed",
       "reason": "HTTPS 204 probe failed"
@@ -450,31 +462,19 @@
       "reason": "HTTPS 204 probe failed"
     },
     {
-      "id": "2bfadc2192cc0118",
-      "type": "vless",
-      "status": "failed",
-      "reason": "HTTPS 204 probe failed"
-    },
-    {
       "id": "faf1b3cb3816b133",
       "type": "vless",
       "status": "failed",
       "reason": "HTTPS 204 probe failed"
     },
     {
-      "id": "e0098f9004f7f633",
+      "id": "2bfadc2192cc0118",
       "type": "vless",
       "status": "failed",
       "reason": "HTTPS 204 probe failed"
     },
     {
       "id": "6af891834035bca0",
-      "type": "vless",
-      "status": "failed",
-      "reason": "HTTPS 204 probe failed"
-    },
-    {
-      "id": "e3182b38761d1110",
       "type": "vless",
       "status": "failed",
       "reason": "HTTPS 204 probe failed"
@@ -502,7 +502,7 @@
   "input_entries": 85,
   "unique_candidates": 65,
   "tested_nodes": 59,
-  "updated_at": "2026-10-27T14:25:35.192132+08:00",
+  "updated_at": "2026-10-28T14:55:52.481121+08:00",
   "published_nodes": 3,
   "clash_nodes": 3,
   "clash_updated": true,

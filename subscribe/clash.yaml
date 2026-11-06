@@ -3,25 +3,23 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-- name: CA VMESS-05 | free-nodes [763b89]
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
+- name: 未知 SS-11 | free-nodes [1c4b8d]
+  type: ss
+  server: 202.50.253.36
+  port: 19999
   udp: true
-  network: ws
-  tls: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  servername: guanwang.awsno.com
-  skip-cert-verify: false
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: 未知 SS-04 | free-nodes [b612f3]
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 未知 SS-05 | free-nodes [b612f3]
   type: ss
   server: 202.50.253.63
+  port: 19999
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 未知 SS-08 | free-nodes [839273]
+  type: ss
+  server: 202.50.253.18
   port: 19999
   udp: true
   cipher: aes-256-gcm
@@ -33,73 +31,74 @@ proxies:
   udp: true
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 未知 SS-10 | free-nodes [839273]
-  type: ss
-  server: 202.50.253.18
-  port: 19999
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 未知 SS-13 | free-nodes [1fd600]
-  type: ss
-  server: 202.50.253.45
-  port: 19999
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 未知 SS-07 | free-nodes [1c4b8d]
-  type: ss
-  server: 202.50.253.36
-  port: 19999
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 未知 VLESS-15 | free-nodes [e8347b]
-  type: vless
-  server: 156.252.229.136
-  port: 8443
-  udp: true
-  network: tcp
-  tls: true
-  uuid: 3e21e3d3-6d26-4155-b851-764dd8e8c6b5
-  servername: play.googleapis.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
-    short-id: 974f7f8f
-- name: 未知 SS-08 | free-nodes [4de7f2]
-  type: ss
-  server: 202.50.253.99
-  port: 19999
-  udp: true
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: US VLESS-18 | free-nodes [a23fe1]
-  type: vless
-  server: 38.244.5.231
-  port: 443
-  udp: true
-  network: tcp
-  tls: true
-  uuid: 1bd6c8a2-01db-4a3d-8b2c-0b2f2c3e8b5a
-  flow: xtls-rprx-vision
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: DUpNPvLjiL1GzeF7DfKWba-LYLz1KPuQXewhgNGPiDM
-    short-id: ab0a5b56
-- name: 未知 SS-09 | free-nodes [b81526]
+- name: 未知 SS-07 | free-nodes [b81526]
   type: ss
   server: 202.50.253.72
   port: 19999
   udp: true
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 未知 SS-02 | free-nodes [241b7c]
+- name: 未知 SS-03 | free-nodes [241b7c]
   type: ss
   server: 202.50.253.90
+  port: 19999
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 未知 SS-02 | free-nodes [16262d]
+  type: ss
+  server: 202.50.253.27
+  port: 19999
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 未知 SS-06 | free-nodes [51f7ed]
+  type: ss
+  server: 202.50.253.54
+  port: 19999
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 未知 SS-10 | free-nodes [1fd600]
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  udp: true
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: FR VLESS-15 | free-nodes [d8962c]
+  type: vless
+  server: edge.bookmai.com
+  port: 443
+  udp: true
+  network: tcp
+  tls: true
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  flow: xtls-rprx-vision
+  servername: mother-earth.fyi
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+- name: SG VLESS-16 | free-nodes [817bd8]
+  type: vless
+  server: 134.255.211.36
+  port: 443
+  udp: true
+  network: tcp
+  tls: true
+  uuid: c5f59ef3-9540-49fa-bd1e-c6c2f79df49a
+  flow: xtls-rprx-vision
+  servername: sg-sin.probe.geomyip.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: KcI3PoYu2yF7whv-e0C7JnRyUoUiUDu6tOlUBPYYbCk
+    short-id: 2e96bf6afa823abb
+- name: 未知 SS-09 | free-nodes [4de7f2]
+  type: ss
+  server: 202.50.253.99
   port: 19999
   udp: true
   cipher: aes-256-gcm
@@ -109,31 +108,33 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - CA VMESS-05 | free-nodes [763b89]
-  - 未知 SS-04 | free-nodes [b612f3]
+  - 未知 SS-11 | free-nodes [1c4b8d]
+  - 未知 SS-05 | free-nodes [b612f3]
+  - 未知 SS-08 | free-nodes [839273]
   - 未知 SS-12 | free-nodes [bf769a]
-  - 未知 SS-10 | free-nodes [839273]
-  - 未知 SS-13 | free-nodes [1fd600]
-  - 未知 SS-07 | free-nodes [1c4b8d]
-  - 未知 VLESS-15 | free-nodes [e8347b]
-  - 未知 SS-08 | free-nodes [4de7f2]
-  - US VLESS-18 | free-nodes [a23fe1]
-  - 未知 SS-09 | free-nodes [b81526]
-  - 未知 SS-02 | free-nodes [241b7c]
+  - 未知 SS-07 | free-nodes [b81526]
+  - 未知 SS-03 | free-nodes [241b7c]
+  - 未知 SS-02 | free-nodes [16262d]
+  - 未知 SS-06 | free-nodes [51f7ed]
+  - 未知 SS-10 | free-nodes [1fd600]
+  - FR VLESS-15 | free-nodes [d8962c]
+  - SG VLESS-16 | free-nodes [817bd8]
+  - 未知 SS-09 | free-nodes [4de7f2]
 - name: AUTO
   type: url-test
   proxies:
-  - CA VMESS-05 | free-nodes [763b89]
-  - 未知 SS-04 | free-nodes [b612f3]
+  - 未知 SS-11 | free-nodes [1c4b8d]
+  - 未知 SS-05 | free-nodes [b612f3]
+  - 未知 SS-08 | free-nodes [839273]
   - 未知 SS-12 | free-nodes [bf769a]
-  - 未知 SS-10 | free-nodes [839273]
-  - 未知 SS-13 | free-nodes [1fd600]
-  - 未知 SS-07 | free-nodes [1c4b8d]
-  - 未知 VLESS-15 | free-nodes [e8347b]
-  - 未知 SS-08 | free-nodes [4de7f2]
-  - US VLESS-18 | free-nodes [a23fe1]
-  - 未知 SS-09 | free-nodes [b81526]
-  - 未知 SS-02 | free-nodes [241b7c]
+  - 未知 SS-07 | free-nodes [b81526]
+  - 未知 SS-03 | free-nodes [241b7c]
+  - 未知 SS-02 | free-nodes [16262d]
+  - 未知 SS-06 | free-nodes [51f7ed]
+  - 未知 SS-10 | free-nodes [1fd600]
+  - FR VLESS-15 | free-nodes [d8962c]
+  - SG VLESS-16 | free-nodes [817bd8]
+  - 未知 SS-09 | free-nodes [4de7f2]
   url: https://www.gstatic.com/generate_204
   interval: 300
 rules:

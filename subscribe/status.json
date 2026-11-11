@@ -1,7 +1,7 @@
 {
-  "source_url": "https://clashgithub.com/wp-content/uploads/rss/20261110.txt",
-  "source_date": "20261110",
-  "checked_at": "2026-11-10T16:28:51.275682+08:00",
+  "source_url": "https://clashgithub.com/wp-content/uploads/rss/20261111.txt",
+  "source_date": "20261111",
+  "checked_at": "2026-11-11T15:49:17.021069+08:00",
   "status": "published",
   "results": [
     {
@@ -20,11 +20,6 @@
       "status": "duplicate"
     },
     {
-      "index": 6,
-      "id": "d6d47c9bbeccfd7a",
-      "status": "duplicate"
-    },
-    {
       "index": 7,
       "status": "unsupported",
       "reason": "invalid or unsupported node parameters"
@@ -40,12 +35,12 @@
       "reason": "invalid or unsupported node parameters"
     },
     {
-      "index": 11,
+      "index": 10,
       "status": "unsupported",
       "reason": "invalid or unsupported node parameters"
     },
     {
-      "index": 12,
+      "index": 11,
       "status": "unsupported",
       "reason": "invalid or unsupported node parameters"
     },
@@ -55,12 +50,22 @@
       "reason": "invalid or unsupported node parameters"
     },
     {
-      "index": 15,
-      "id": "b3031ca673b13684",
-      "status": "duplicate"
+      "index": 16,
+      "status": "unsupported",
+      "reason": "invalid or unsupported node parameters"
     },
     {
       "index": 17,
+      "status": "unsupported",
+      "reason": "invalid or unsupported node parameters"
+    },
+    {
+      "index": 18,
+      "status": "unsupported",
+      "reason": "invalid or unsupported node parameters"
+    },
+    {
+      "index": 21,
       "status": "unsupported",
       "reason": "invalid or unsupported node parameters"
     },
@@ -80,7 +85,7 @@
       "reason": "invalid or unsupported node parameters"
     },
     {
-      "index": 26,
+      "index": 25,
       "status": "unsupported",
       "reason": "invalid or unsupported node parameters"
     },
@@ -90,14 +95,19 @@
       "reason": "invalid or unsupported node parameters"
     },
     {
-      "index": 29,
+      "index": 34,
       "status": "unsupported",
       "reason": "invalid or unsupported node parameters"
     },
     {
-      "index": 33,
-      "id": "0777da57832f2007",
+      "index": 35,
+      "id": "3e2c21606dc7afe6",
       "status": "duplicate"
+    },
+    {
+      "index": 36,
+      "status": "unsupported",
+      "reason": "invalid or unsupported node parameters"
     },
     {
       "index": 37,
@@ -105,23 +115,23 @@
       "reason": "invalid or unsupported node parameters"
     },
     {
-      "index": 40,
+      "index": 38,
+      "status": "unsupported",
+      "reason": "invalid or unsupported node parameters"
+    },
+    {
+      "index": 39,
       "status": "unsupported",
       "reason": "invalid or unsupported node parameters"
     },
     {
       "index": 41,
-      "status": "unsupported",
-      "reason": "invalid or unsupported node parameters"
-    },
-    {
-      "index": 42,
-      "status": "unsupported",
-      "reason": "invalid or unsupported node parameters"
+      "id": "5cff75caa0ac15e1",
+      "status": "duplicate"
     },
     {
       "index": 43,
-      "id": "5cff75caa0ac15e1",
+      "id": "9d457bbc6db3ed24",
       "status": "duplicate"
     },
     {
@@ -130,19 +140,14 @@
       "reason": "invalid or unsupported node parameters"
     },
     {
-      "index": 45,
-      "status": "unsupported",
-      "reason": "invalid or unsupported node parameters"
-    },
-    {
-      "index": 47,
+      "index": 46,
       "status": "unsupported",
       "reason": "invalid or unsupported node parameters"
     },
     {
       "index": 48,
-      "id": "be7a3139163991a6",
-      "status": "duplicate"
+      "status": "unsupported",
+      "reason": "invalid or unsupported node parameters"
     },
     {
       "index": 49,
@@ -150,7 +155,7 @@
       "reason": "invalid or unsupported node parameters"
     },
     {
-      "index": 51,
+      "index": 50,
       "status": "unsupported",
       "reason": "invalid or unsupported node parameters"
     },
@@ -160,24 +165,24 @@
       "reason": "invalid or unsupported node parameters"
     },
     {
-      "index": 55,
+      "index": 53,
       "status": "unsupported",
       "reason": "invalid or unsupported node parameters"
     },
     {
-      "index": 57,
-      "id": "1f2df31c16c90ade",
+      "index": 56,
+      "id": "c984ee1c03a571de",
       "status": "duplicate"
     },
     {
-      "index": 58,
-      "status": "unsupported",
-      "reason": "invalid or unsupported node parameters"
+      "index": 57,
+      "id": "e2b5c46527d98bd6",
+      "status": "duplicate"
     },
     {
       "index": 59,
-      "status": "unsupported",
-      "reason": "invalid or unsupported node parameters"
+      "id": "e61c8b4c8cc6295a",
+      "status": "duplicate"
     },
     {
       "index": 60,
@@ -185,24 +190,14 @@
       "reason": "invalid or unsupported node parameters"
     },
     {
-      "index": 61,
-      "status": "unsupported",
-      "reason": "invalid or unsupported node parameters"
-    },
-    {
-      "index": 63,
-      "id": "5ec7fc44836b6960",
+      "index": 64,
+      "id": "a1136b67cefed67d",
       "status": "duplicate"
     },
     {
-      "index": 64,
-      "status": "unsupported",
-      "reason": "invalid or unsupported node parameters"
-    },
-    {
       "index": 65,
-      "status": "unsupported",
-      "reason": "invalid or unsupported node parameters"
+      "id": "1f2df31c16c90ade",
+      "status": "duplicate"
     },
     {
       "index": 66,
@@ -230,19 +225,19 @@
       "reason": "invalid or unsupported node parameters"
     },
     {
-      "index": 73,
-      "id": "5ec7fc44836b6960",
-      "status": "duplicate"
+      "index": 71,
+      "status": "unsupported",
+      "reason": "invalid or unsupported node parameters"
     },
     {
       "index": 75,
-      "id": "485a63d93a349499",
-      "status": "duplicate"
+      "status": "unsupported",
+      "reason": "invalid or unsupported node parameters"
     },
     {
       "index": 76,
-      "status": "unsupported",
-      "reason": "invalid or unsupported node parameters"
+      "id": "7de5b364438d43fe",
+      "status": "duplicate"
     },
     {
       "index": 77,
@@ -250,34 +245,24 @@
       "reason": "invalid or unsupported node parameters"
     },
     {
-      "index": 78,
-      "status": "unsupported",
-      "reason": "invalid or unsupported node parameters"
-    },
-    {
-      "index": 79,
+      "index": 80,
       "status": "unsupported",
       "reason": "invalid or unsupported node parameters"
     },
     {
       "index": 81,
-      "id": "b3031ca673b13684",
-      "status": "duplicate"
+      "status": "unsupported",
+      "reason": "invalid or unsupported node parameters"
     },
     {
       "index": 82,
-      "id": "be7a3139163991a6",
-      "status": "duplicate"
-    },
-    {
-      "index": 83,
       "status": "unsupported",
       "reason": "invalid or unsupported node parameters"
     },
     {
       "index": 84,
-      "id": "26206d7cd0d216d6",
-      "status": "duplicate"
+      "status": "unsupported",
+      "reason": "invalid or unsupported node parameters"
     },
     {
       "index": 85,
@@ -285,17 +270,27 @@
       "reason": "invalid or unsupported node parameters"
     },
     {
-      "index": 87,
-      "id": "1f2df31c16c90ade",
-      "status": "duplicate"
-    },
-    {
-      "index": 88,
+      "index": 86,
       "status": "unsupported",
       "reason": "invalid or unsupported node parameters"
     },
     {
-      "index": 89,
+      "index": 88,
+      "id": "4623695a15de8ca8",
+      "status": "duplicate"
+    },
+    {
+      "index": 92,
+      "status": "unsupported",
+      "reason": "invalid or unsupported node parameters"
+    },
+    {
+      "index": 94,
+      "id": "e02604efd6cf1b56",
+      "status": "duplicate"
+    },
+    {
+      "index": 95,
       "status": "unsupported",
       "reason": "invalid or unsupported node parameters"
     },
@@ -306,28 +301,52 @@
       "reason": "non-public endpoint or DNS lookup failed"
     },
     {
+      "id": "6a5a0faa931834cc",
+      "type": "vless",
+      "status": "rejected",
+      "reason": "non-public endpoint or DNS lookup failed"
+    },
+    {
+      "id": "6173a64594094ae3",
+      "type": "vless",
+      "status": "rejected",
+      "reason": "non-public endpoint or DNS lookup failed"
+    },
+    {
+      "id": "a311764549b016bc",
+      "type": "vless",
+      "status": "rejected",
+      "reason": "non-public endpoint or DNS lookup failed"
+    },
+    {
+      "id": "a1136b67cefed67d",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "772b88dce7ad2e8c",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "d94c42a502a05345",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
       "id": "a0e889f380e9213b",
       "type": "vless",
       "status": "failed",
       "reason": "HTTPS 204 probe failed"
     },
     {
-      "id": "d6d47c9bbeccfd7a",
-      "type": "vless",
-      "status": "failed",
-      "reason": "HTTPS 204 probe failed"
-    },
-    {
-      "id": "b3031ca673b13684",
-      "type": "vless",
-      "status": "failed",
-      "reason": "HTTPS 204 probe failed"
-    },
-    {
-      "id": "04de1d23b3f85504",
+      "id": "250a5e5d8f20ffe0",
       "type": "vless",
       "status": "ok",
-      "latency_ms": 556,
+      "latency_ms": 518,
       "probes": 2
     },
     {
@@ -337,33 +356,7 @@
       "reason": "HTTPS 204 probe failed"
     },
     {
-      "id": "4f100e06c2ff8f6d",
-      "type": "vless",
-      "status": "ok",
-      "latency_ms": 554,
-      "probes": 2
-    },
-    {
-      "id": "0777da57832f2007",
-      "type": "vless",
-      "status": "failed",
-      "reason": "HTTPS 204 probe failed"
-    },
-    {
-      "id": "250a5e5d8f20ffe0",
-      "type": "vless",
-      "status": "ok",
-      "latency_ms": 631,
-      "probes": 2
-    },
-    {
-      "id": "be7a3139163991a6",
-      "type": "vless",
-      "status": "failed",
-      "reason": "HTTPS 204 probe failed"
-    },
-    {
-      "id": "08bddfbc99839302",
+      "id": "9d457bbc6db3ed24",
       "type": "vless",
       "status": "failed",
       "reason": "HTTPS 204 probe failed"
@@ -372,18 +365,11 @@
       "id": "b0b6690a720d936c",
       "type": "vless",
       "status": "ok",
-      "latency_ms": 786,
-      "probes": 2
-    },
-    {
-      "id": "fb387dbd005985f6",
-      "type": "vless",
-      "status": "ok",
       "latency_ms": 783,
       "probes": 2
     },
     {
-      "id": "1f2df31c16c90ade",
+      "id": "7de5b364438d43fe",
       "type": "vless",
       "status": "failed",
       "reason": "HTTPS 204 probe failed"
@@ -392,11 +378,59 @@
       "id": "00025868e6fe5e8d",
       "type": "vless",
       "status": "ok",
-      "latency_ms": 854,
+      "latency_ms": 822,
       "probes": 2
     },
     {
-      "id": "26206d7cd0d216d6",
+      "id": "e02604efd6cf1b56",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "1f2df31c16c90ade",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "3e2c21606dc7afe6",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "e2b5c46527d98bd6",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "c984ee1c03a571de",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "e61c8b4c8cc6295a",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "4623695a15de8ca8",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "63eff99890803c96",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "d26f38bbd7783e59",
       "type": "vless",
       "status": "failed",
       "reason": "HTTPS 204 probe failed"
@@ -405,48 +439,20 @@
       "id": "0e6b5144dca35e85",
       "type": "vless",
       "status": "ok",
-      "latency_ms": 287,
+      "latency_ms": 302,
       "probes": 2
     },
     {
-      "id": "52f1ceeb56f3c113",
-      "type": "vless",
-      "status": "ok",
-      "latency_ms": 590,
-      "probes": 2
-    },
-    {
-      "id": "11d1effa12404c87",
-      "type": "vless",
-      "status": "ok",
-      "latency_ms": 576,
-      "probes": 2
-    },
-    {
-      "id": "50e9f0ceba3bfc71",
-      "type": "vless",
-      "status": "ok",
-      "latency_ms": 760,
-      "probes": 2
-    },
-    {
-      "id": "62566bef63bed75f",
+      "id": "a2698436d7a58907",
       "type": "vless",
       "status": "failed",
       "reason": "HTTPS 204 probe failed"
     },
     {
-      "id": "485a63d93a349499",
+      "id": "7d011082b4edcdd0",
       "type": "vless",
       "status": "failed",
       "reason": "HTTPS 204 probe failed"
-    },
-    {
-      "id": "6023071010b93ac0",
-      "type": "vless",
-      "status": "ok",
-      "latency_ms": 578,
-      "probes": 2
     },
     {
       "id": "1469591b972de24e",
@@ -455,31 +461,49 @@
       "reason": "HTTPS 204 probe failed"
     },
     {
-      "id": "ec73432253b929e8",
+      "id": "1fea8733c45d8654",
       "type": "vless",
       "status": "failed",
       "reason": "HTTPS 204 probe failed"
     },
     {
-      "id": "5ec7fc44836b6960",
+      "id": "ce495e0c467c586d",
       "type": "vless",
       "status": "failed",
       "reason": "HTTPS 204 probe failed"
     },
     {
-      "id": "65f7a075aa4f9fa1",
+      "id": "03d35d93a90a59f4",
       "type": "vless",
       "status": "failed",
       "reason": "HTTPS 204 probe failed"
     },
     {
-      "id": "d52f381bba1b086c",
+      "id": "f7487f02f0e85c9e",
       "type": "vless",
       "status": "failed",
       "reason": "HTTPS 204 probe failed"
     },
     {
-      "id": "6173a64594094ae3",
+      "id": "bf69af871187b09f",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "a2ae28be1c154d82",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "1fb4bdc26f3750c1",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "0a32926f42a743b1",
       "type": "vless",
       "status": "failed",
       "reason": "HTTPS 204 probe failed"
@@ -489,15 +513,21 @@
       "type": "vless",
       "status": "failed",
       "reason": "HTTPS 204 probe failed"
+    },
+    {
+      "id": "7e1359d0b8bb121c",
+      "type": "vless",
+      "status": "failed",
+      "reason": "HTTPS 204 probe failed"
     }
   ],
   "core_version": "Xray 26.3.27 (Xray, Penetrates Everything.) d2758a0 (go1.26.1 linux/amd64)",
-  "input_entries": 89,
-  "unique_candidates": 30,
-  "tested_nodes": 29,
-  "updated_at": "2026-11-10T16:29:00.246948+08:00",
-  "published_nodes": 11,
-  "clash_nodes": 11,
+  "input_entries": 95,
+  "unique_candidates": 37,
+  "tested_nodes": 33,
+  "updated_at": "2026-11-11T15:49:27.438720+08:00",
+  "published_nodes": 4,
+  "clash_nodes": 4,
   "clash_updated": true,
   "clash_unsupported": []
 }

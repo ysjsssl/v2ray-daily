@@ -20,82 +20,7 @@ proxies:
   xhttp-opts:
     path: d299cd2149b1adf9e9ad034d1ecadb4f
     host: f215742bs2316.fuhuovps.xyz
-- name: JP VLESS-25 | free-nodes [4f100e]
-  type: vless
-  server: s2534.wagahaha.xyz
-  port: 443
-  udp: true
-  network: tcp
-  tls: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  flow: xtls-rprx-vision
-  servername: u695098udfec02ees2532.xxti.top
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  alpn:
-  - h2
-  - http/1.1
-- name: JP VLESS-18 | free-nodes [04de1d]
-  type: vless
-  server: s2503.ccgfw.online
-  port: 443
-  udp: true
-  network: tcp
-  tls: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  flow: xtls-rprx-vision
-  servername: u695098u093da7d1s2502.xxti.top
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  alpn:
-  - h2
-  - http/1.1
-- name: JP VLESS-39 | free-nodes [11d1ef]
-  type: vless
-  server: s2547.fuhuovps.xyz
-  port: 443
-  udp: true
-  network: tcp
-  tls: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  flow: xtls-rprx-vision
-  servername: u695098uf08a6307s2544.xxti.top
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  alpn:
-  - h2
-  - http/1.1
-- name: JP VLESS-72 | free-nodes [602307]
-  type: vless
-  server: s2533.gogocs.xyz
-  port: 443
-  udp: true
-  network: tcp
-  tls: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  flow: xtls-rprx-vision
-  servername: u695098udfec02ees2532.xxti.top
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  alpn:
-  - h2
-  - http/1.1
-- name: JP VLESS-38 | free-nodes [52f1ce]
-  type: vless
-  server: s2546.wagahaha.xyz
-  port: 443
-  udp: true
-  network: tcp
-  tls: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  flow: xtls-rprx-vision
-  servername: u695098uf08a6307s2544.xxti.top
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  alpn:
-  - h2
-  - http/1.1
-- name: JP VLESS-20 | free-nodes [250a5e]
+- name: JP VLESS-19 | free-nodes [250a5e]
   type: vless
   server: s2523.fuhuovps.xyz
   port: 443
@@ -112,41 +37,7 @@ proxies:
   xhttp-opts:
     path: 356257a80f246d77bb43c7d9d7f98d05
     host: 6b0550c8s2521.xxti.top
-- name: KR VLESS-46 | free-nodes [50e9f0]
-  type: vless
-  server: s2449.gogocs.xyz
-  port: 443
-  udp: true
-  network: xhttp
-  tls: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  servername: u695098u66e05ed8s2448.xxti.top
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  alpn:
-  - h2
-  - http/1.1
-  xhttp-opts:
-    path: bfaa4bbe8cd76b7477b05453d8d48ecc
-    host: 66e05ed8s2448.xxti.top
-- name: KR VLESS-27 | free-nodes [fb387d]
-  type: vless
-  server: s2562.uugfw.top
-  port: 443
-  udp: true
-  network: xhttp
-  tls: true
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  servername: u695098u53aeed47s2556.xxti.top
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  alpn:
-  - h2
-  - http/1.1
-  xhttp-opts:
-    path: bb73f97fe26972118c6eca821c963bb0
-    host: 53aeed47s2556.xxti.top
-- name: 未知 VLESS-10 | free-nodes [b0b669]
+- name: 未知 VLESS-12 | free-nodes [b0b669]
   type: vless
   server: s8748.xxti.top
   port: 443
@@ -163,7 +54,7 @@ proxies:
   xhttp-opts:
     path: 4d71d1f35cb411d631a066ab9390b905
     host: fe65960bs8746.fuhuovps.xyz
-- name: 未知 VLESS-30 | free-nodes [000258]
+- name: 未知 VLESS-31 | free-nodes [000258]
   type: vless
   server: s8747.xxti.top
   port: 443
@@ -186,30 +77,16 @@ proxy-groups:
   proxies:
   - AUTO
   - US VLESS-54 | free-nodes [0e6b51]
-  - JP VLESS-25 | free-nodes [4f100e]
-  - JP VLESS-18 | free-nodes [04de1d]
-  - JP VLESS-39 | free-nodes [11d1ef]
-  - JP VLESS-72 | free-nodes [602307]
-  - JP VLESS-38 | free-nodes [52f1ce]
-  - JP VLESS-20 | free-nodes [250a5e]
-  - KR VLESS-46 | free-nodes [50e9f0]
-  - KR VLESS-27 | free-nodes [fb387d]
-  - 未知 VLESS-10 | free-nodes [b0b669]
-  - 未知 VLESS-30 | free-nodes [000258]
+  - JP VLESS-19 | free-nodes [250a5e]
+  - 未知 VLESS-12 | free-nodes [b0b669]
+  - 未知 VLESS-31 | free-nodes [000258]
 - name: AUTO
   type: url-test
   proxies:
   - US VLESS-54 | free-nodes [0e6b51]
-  - JP VLESS-25 | free-nodes [4f100e]
-  - JP VLESS-18 | free-nodes [04de1d]
-  - JP VLESS-39 | free-nodes [11d1ef]
-  - JP VLESS-72 | free-nodes [602307]
-  - JP VLESS-38 | free-nodes [52f1ce]
-  - JP VLESS-20 | free-nodes [250a5e]
-  - KR VLESS-46 | free-nodes [50e9f0]
-  - KR VLESS-27 | free-nodes [fb387d]
-  - 未知 VLESS-10 | free-nodes [b0b669]
-  - 未知 VLESS-30 | free-nodes [000258]
+  - JP VLESS-19 | free-nodes [250a5e]
+  - 未知 VLESS-12 | free-nodes [b0b669]
+  - 未知 VLESS-31 | free-nodes [000258]
   url: https://www.gstatic.com/generate_204
   interval: 300
 rules:
